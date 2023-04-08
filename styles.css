@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #494d5f;
+  font-family: sans-serif;
+}
+
+input {
+  display: block;
+}
+label {
+  display: inline;
+}
+input[type="checkbox"] {
+  display: inline;
+}
+.prdiv {
+  display: flex;
+}
+#todos {
+  background-color: #e5eaf9;
+  width: 300px;
+  color: white;
+  margin-left: 100px;
+}
+.container {
+  background-color: #e5eaf9;
+  width: 500px;
+  border-radius: 10px;
+  padding: 20px;
+}
+#newtodo,
+#submit {
+  margin-left: 200px;
+  background-color: #494d5f;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#todo-form {
+  margin-left: 150px;
+}
+#todo-form input {
+  border-radius: 20px;
+}
+#todo-form label {
+  font-size: medium;
+  font-weight: 700;
+}
+
+#todo-heading {
+  margin-left: 175px;
+}
+#submit {
+  margin-left: 65px;
+  margin-top: 5px;
+  padding: 10px;
+}
+#newtodo {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+#td {
+  background-color: #494d5f;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#showmore,
+#delete,
+#edit {
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 5px;
+}
