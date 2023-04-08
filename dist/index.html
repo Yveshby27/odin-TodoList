@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="todo-heading">Todo List</h1>
+      <button id="newtodo">New Todo</button>
+      <form action="" method="" id="todo-form">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" required />
+
+        <label for="dueDate">Due Date</label>
+        <input type="date" id="duedate" name="duedate" required />
+
+        <label for="priority1">Priority 1(most important)</label>
+        <input type="text" id="priority1" name="priority1" required />
+
+        <label for="priority2">Priority 2</label>
+        <input type="text" id="priority2" name="priority2" required />
+
+        <label for="priority3">Priority 3</label>
+        <input type="text" id="priority3" name="priority3" required />
+
+        <label for="priority4">Priority 4(least important)</label>
+        <input type="text" id="priority4" name="priority4" required />
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <div id="todos"></div>
+    </div>
+  </body>
+</html>
